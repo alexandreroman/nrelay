@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/info_background"
+    android:minWidth="160dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/info_state"
+        style="@style/InfoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/state_orange"
+        android:drawablePadding="4dp"
+        android:gravity="center"
+        android:paddingBottom="4dp"
+        android:text="@string/state_waiting_for_gps_fix"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/info_satellites"
+        style="@style/InfoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/satellite"
+        android:drawablePadding="4dp"
+        android:gravity="center"
+        android:paddingBottom="4dp"
+        android:text="@string/seen_satellites" />
+
+    <TextView
+        android:id="@+id/info_accuracy"
+        style="@style/InfoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ruler"
+        android:drawablePadding="4dp"
+        android:gravity="center"
+        android:text="@string/accuracy" />
+
+</LinearLayout>

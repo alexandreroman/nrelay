@@ -1,0 +1,7 @@
+bin
+gen
+proguard
+maps.xml
+.classpath
+.project
+.settings

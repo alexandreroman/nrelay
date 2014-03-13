@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blue_circle_fill_color">#200000FF</color>
+    <color name="blue_circle_stroke_color">#500000FF</color>
+
+</resources>
